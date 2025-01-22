@@ -32,7 +32,7 @@ const User = mongoose.model("User", userSchema);
 // Middleware
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://numetry-proj.vercel.app"],
+    origin: ["http://localhost:5173", "https://numetry-signupform-frontend.vercel.app"],
     methods: ["GET", "POST"],
     credentials: true,
   })
