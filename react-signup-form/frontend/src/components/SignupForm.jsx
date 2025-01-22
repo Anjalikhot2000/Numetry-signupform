@@ -19,7 +19,7 @@ const SignupForm = () => {
   });
 
   // Backend URLs
-  const PRIMARY_API_URL = "https://numetry-signupform-backend.vercel.app/api/signup";
+  const PRIMARY_API_URL = "https://numetry-signupform-backend.vercel.app";
   const FALLBACK_API_URL = "http://localhost:5000/api/signup";
 
   const handleChange = (e) => {
