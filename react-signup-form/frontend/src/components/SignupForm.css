@@ -1,0 +1,80 @@
+/* Form container */
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 30px;
+  padding-top: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form heading */
+h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+  padding-right: 40px; /* Space for the eye icon */
+}
+
+input:focus {
+  border-color: #4e90ff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(78, 144, 255, 0.5);
+}
+
+/* Password container for input and eye icon */
+.password-container {
+  position: relative;
+  width: 100%;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  color: #555;
+}
+
+/* Submit button */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #734F96;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #047921;
+}
+
+/* Error message styling */
+.error-message {
+  color: #e74c3c;
+  font-size: 14px;
+  text-align: center;
+}
